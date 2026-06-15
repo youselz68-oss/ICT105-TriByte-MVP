@@ -28,3 +28,4 @@ We chose to focus on issues experienced by students on campus when developing ou
 
 ### Plan for Next Week
 Perform opportunity analysis, assess the three proposed venture ideas, and select the most promising problem area to develop further in Lab 2.
+
