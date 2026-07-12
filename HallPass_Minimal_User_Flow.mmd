@@ -1,0 +1,70 @@
+flowchart TD
+
+    A([Student opens HallPass])
+
+    B[Browse or Search<br/>Dorms • Cafeterias • Campus Guides]
+
+    C[View Reviews or Guides<br/>Ratings • Photos • Tips]
+
+    D{Leave a Review?}
+
+    E[Continue Browsing]
+
+    F[Log In / Sign Up]
+
+    G[Write Review]
+
+    H[Submit Review]
+
+    I{Review Valid?}
+
+    J[Show Validation Error]
+
+    K[Review Saved]
+
+    L[Admin Reviews Submission]
+
+    M{Approve?}
+
+    N[Review Published]
+
+    O[Review Rejected]
+
+    P([End])
+
+    A --> B
+    B --> C
+    C --> D
+
+    D -- No --> E
+    E --> P
+
+    D -- Yes --> F
+    F --> G
+    G --> H
+    H --> I
+
+    I -- No --> J
+    J --> G
+
+    I -- Yes --> K
+    K --> L
+    L --> M
+
+    M -- Yes --> N
+    M -- No --> O
+
+    N --> P
+    O --> P
+
+    classDef start fill:#E0E0E0,stroke:#666,color:#222;
+    classDef browse fill:#D6EAF8,stroke:#2E86DE,color:#222;
+    classDef account fill:#D5F5E3,stroke:#28B463,color:#222;
+    classDef decision fill:#FAD7A0,stroke:#CA6F1E,color:#222;
+    classDef admin fill:#FDEBD0,stroke:#D68910,color:#222;
+
+    class A,P start;
+    class B,C,E,N browse;
+    class F,G,H,K account;
+    class D,I,M decision;
+    class J,L,O admin;
