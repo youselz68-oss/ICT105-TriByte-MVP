@@ -1,0 +1,4 @@
+segment_id,segment_name,need,value_expected,possible_channel
+CS01,"First-year, international, and exchange students","Need trustworthy information about dormitories, cafeterias, and campus life to adapt quickly to university.","Easy access to authentic student reviews, campus survival guides, and recommendations for making informed decisions.",Website
+CS02,Senior students who want to share their campus experiences,"Share reviews, recommendations, and survival tips",Easy way to help junior students and contribute to the campus community,Web form
+CS03,Admin or university moderator,"Monitor reviews, verify submissions, and manage content","Well-organized, reliable, and safe platform for students",Admin panel
