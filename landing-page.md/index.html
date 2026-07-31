@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HallPass helps Rangsit University students find trusted dormitory, cafeteria, and campus-life information in one place.">
+  <title>HallPass | Your shortcut to campus life</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="HallPass home">
+        <span class="brand-mark" aria-hidden="true"><i class="fa-solid fa-school"></i></span>
+        <span>HallPass</span>
+      </a>
+      <div class="nav-links">
+        <a href="#why">Why HallPass</a>
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a class="button button-small js-cta" href="../prototype/index.html">Open prototype <span aria-hidden="true">→</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>Your shortcut to <span>campus life.</span></h1>
+          <p class="hero-lead">Discover trusted dormitories and cafeterias, save your shortlist, compare the options that matter, and manage your own student reviews—all in one place.</p>
+          <div class="actions">
+            <a class="button js-cta" href="../prototype/index.html"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Explore HallPass</a>
+            <a class="button button-ghost js-cta" href="../prototype/login.html"><i class="fa-regular fa-user" aria-hidden="true"></i> Student login</a>
+          </div>
+        </div>
+
+        <div class="product-preview" aria-label="Preview of HallPass categories">
+          <div class="preview-top">
+            <span class="preview-logo" aria-hidden="true"><i class="fa-solid fa-school"></i></span>
+            <span>Explore HallPass</span>
+            <span class="preview-pill">Live prototype</span>
+          </div>
+          <div class="preview-search">Search dorms, food, guides… <span aria-hidden="true">⌕</span></div>
+          <div class="preview-card preview-dorm">
+            <span class="preview-icon" aria-hidden="true">⌂</span>
+            <div><strong>Dormitory reviews</strong><small>Save places and compare rent, rating & distance</small></div>
+            <b>4.6 ★</b>
+          </div>
+          <div class="preview-card preview-food">
+            <span class="preview-icon" aria-hidden="true">☕</span>
+            <div><strong>Cafeteria reviews</strong><small>Compare meal price, location & student ratings</small></div>
+            <b>4.4 ★</b>
+          </div>
+          <div class="preview-guide">
+            <span>NEW STUDENT GUIDE</span>
+            <strong>Student accounts, saved places, reviews and practical guides</strong>
+            <div class="guide-dots" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="wrap problem-grid">
+        <div>
+          <p class="eyebrow dark">The problem</p>
+          <h2>Campus answers are everywhere—except where you need them.</h2>
+        </div>
+        <div class="problem-copy">
+          <p>New, international, and exchange students often depend on scattered social-media posts, group chats, and word of mouth to compare accommodation, find affordable food, and understand daily campus life.</p>
+          <p>HallPass brings those student experiences into one clear, searchable platform so users can make faster, more confident decisions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features-section" id="features">
+      <div class="wrap">
+        <p class="eyebrow dark">Inside the prototype</p>
+        <div class="section-heading">
+          <h2>Useful information. Clear next steps.</h2>
+          <p>Every link opens the matching screen in the connected HallPass prototype.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">01</span>
+            <div class="feature-icon blue" aria-hidden="true">⌂</div>
+            <h3>Save and compare dormitories</h3>
+            <p>Browse student reviews, save a shortlist, and compare rating, monthly rent, distance, and verification side by side.</p>
+            <a href="../prototype/dorms.html" class="js-secondary-cta">Explore dorms →</a>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">02</span>
+            <div class="feature-icon gold" aria-hidden="true">☕</div>
+            <h3>Compare campus food</h3>
+            <p>Explore cafeteria options and compare student ratings, meal prices, locations, and recommendations.</p>
+            <a href="../prototype/cafeteria.html" class="js-secondary-cta">Explore cafeterias →</a>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">03</span>
+            <div class="feature-icon green" aria-hidden="true">◇</div>
+            <h3>Navigate student life</h3>
+            <p>Read practical guides covering transport, banking, emergencies, visas, connectivity, and daily campus tips.</p>
+            <a href="../prototype/guide.html" class="js-secondary-cta">Read the guide →</a>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">04</span>
+            <div class="feature-icon violet" aria-hidden="true">✎</div>
+            <h3>Build your student profile</h3>
+            <p>Create an account, submit reviews, follow moderation status, manage saved places, and update your profile.</p>
+            <a href="../prototype/signup.html" class="js-secondary-cta">Create a student account →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section privacy-section" id="privacy">
+      <div class="wrap privacy-grid">
+        <div class="privacy-mark" aria-hidden="true">✓</div>
+        <div>
+          <p class="eyebrow">Responsible by design</p>
+          <h2>Your privacy matters.</h2>
+          <p>Account details, consent choices, reviews, and activity you choose to save stay in your browser using localStorage. Do not enter sensitive personal information.</p>
+        </div>
+        <a class="button button-light" href="../prototype/signup.html">View consent flow</a>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="wrap final-inner">
+        <div>
+          <p class="eyebrow">Ready to explore?</p>
+          <h2>Explore the complete HallPass experience.</h2>
+          <p>Browse as a visitor, then log in to save places, compare your shortlist, and submit reviews.</p>
+        </div>
+        <div class="final-actions">
+          <a class="button button-gold js-cta" href="../prototype/index.html">Open HallPass <span aria-hidden="true">→</span></a>
+          <a class="final-login-link js-cta" href="../prototype/login.html">Already have an account? Log in</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <div><strong>HallPass</strong></div>
+      <p>© 2026 HallPass</p>
+    </div>
+  </footer>
+</body>
+</html>
